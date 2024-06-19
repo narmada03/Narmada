@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>registerform</title>
+</head>
+<body bgcolor="cyan">
+	<h2 align="center">Register Page</h2>
+	<fieldset>
+
+<table border="2" style="border-collapse: collapse;" cellspacing="5" cellpadding="10" bgcolor="lightgreen" align="center">
+	<tr>
+		<td>
+		<label for="fname">First Name:</label>
+	</td>
+		<td>
+		<input type="text" id="name" placeholder="enter first name" required>
+	</td></tr>
+		<tr>
+			<td>
+		<label for="lname">last Name:</label>
+	</td>
+	<td>
+		<input type="text" id="name" placeholder="enter last name" required>
+	</td>
+</tr>
+		<br>
+		<tr>
+			<td>
+        <label for="age">Age:</label></td>
+        <td>
+
+		<input type="number" id="age"></td>
+	</tr>
+		<tr>
+			<td>
+	    <label for="mobile">Mobile:</label></td>
+	    <td>
+		<input type="number" id="mobile" placeholder="enter mobile number" required>
+	</td>
+</tr>
+	<tr >
+	<td rowspan="2">
+		<label for="Hobby">Gender</label></td>
+	     <td >
+	    <input type="radio"  value="play" >male</td></tr>
+	    <tr>
+	    <td> <input type="radio"  value=" eat" >female</td></tr>
+		</tr>
+		<tr>
+			<td>
+		<label for="email">Email:</label>
+	</td>
+	<td>
+		<input type="email" id="email" placeholder="enter your Email" required></td></tr>
+		<tr >
+			<td rowspan="3">
+		<label for="Hobby">Hobbies:</label></td>
+	    
+	    <td >
+	    <input type="checkbox"  value="play" >playing</td></tr>
+	    <tr>
+	    <td> <input type="checkbox"  value=" eat" >eating</td></tr>
+	<td>
+	<input type="checkbox" value="sleep">sleeping</td>
+	<tr>
+					<td><label for="password">Password:</label></td>
+		<td><input type="password" id="password"></td>
+	</tr>
+	<tr>
+		<td><label for="password">comfirm password:</label></td>
+		<td><input type="password" id="pass"></td>
+	</tr>
+			<tr><td><label>Select State</label></td>
+		<td><select>
+			<option value="Andra pradesh">AP</option>
+			<option value="Himachal pradesh">HP</option>
+			<option value="uttar pradesh">UP</option>
+		</select></td>
+	</tr>
+				
+			<tr>
+				<td rowspan="1"><label for="description">Description:</label>
+					<input type="description"></td></tr>
+				
+			<td><label>Fav fruit:</label></td><br>
+						<td><input type="text" id="favfruit" list="fruit">
+						<datalist id="fruit">	
+							<option value=" apple"></option>
+								<option value="bannana"></option>
+									<option value="mango"></option>
+							</datalist></td>
+						</tr>
+						<tr>
+							<td align="center">
+<input type="submit"></td>
+
+	<td align="center">
+		<input type="reset" ></td>
+	
+</tr>
+<legend>Register Form</legend></fieldset>
+
+
+		<br>
+	</table>
+</form>
+</body>
+</html>
